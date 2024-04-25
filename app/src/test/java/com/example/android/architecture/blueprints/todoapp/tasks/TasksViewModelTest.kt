@@ -1,30 +1,18 @@
-/*
- * Copyright 2019 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
-package com.example.android.architecture.blueprints.todoapp.tasks
+
+package com.nanicki.todoapp.tasks
 
 import androidx.lifecycle.SavedStateHandle
-import com.example.android.architecture.blueprints.todoapp.ADD_EDIT_RESULT_OK
-import com.example.android.architecture.blueprints.todoapp.DELETE_RESULT_OK
-import com.example.android.architecture.blueprints.todoapp.EDIT_RESULT_OK
-import com.example.android.architecture.blueprints.todoapp.MainCoroutineRule
-import com.example.android.architecture.blueprints.todoapp.R
-import com.example.android.architecture.blueprints.todoapp.data.FakeTaskRepository
-import com.example.android.architecture.blueprints.todoapp.data.Task
+import com.nanicki.todoapp.ADD_EDIT_RESULT_OK
+import com.nanicki.todoapp.DELETE_RESULT_OK
+import com.nanicki.todoapp.EDIT_RESULT_OK
+import com.nanicki.todoapp.MainCoroutineRule
+import com.nanicki.todoapp.R
+import com.nanicki.todoapp.data.FakeTaskRepository
+import com.nanicki.todoapp.data.Task
 import com.google.common.truth.Truth.assertThat
+import com.nanicki.todoapp.tasks.TasksFilterType
+import com.nanicki.todoapp.tasks.TasksViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.first

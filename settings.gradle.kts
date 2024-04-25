@@ -31,3 +31,5 @@ dependencyResolutionManagement {
 
 include(":app")
 include(":shared-test")
+include("feature:taskdetail:api")
+include("feature:taskdetail:impl")

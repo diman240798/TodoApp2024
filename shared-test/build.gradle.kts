@@ -22,7 +22,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.android.architecture.blueprints.todoapp.shared.test"
+    namespace = "com.nanicki.todoapp.shared.test"
     compileSdk = libs.versions.compileSdk.get().toInt()
     defaultConfig {
         minSdk = libs.versions.minSdk.get().toInt()
