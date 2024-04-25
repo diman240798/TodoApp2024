@@ -8,7 +8,7 @@ import com.nanicki.todoapp.DELETE_RESULT_OK
 import com.nanicki.todoapp.EDIT_RESULT_OK
 import com.nanicki.todoapp.R
 import com.nanicki.todoapp.util.Async
-import com.nanicki.todoapp.util.WhileUiSubscribed
+import com.nanicki.todoapp.presentation.util.WhileUiSubscribed
 import com.nanicki.todoapp.data.Task
 import com.nanicki.todoapp.data.TaskRepository
 import com.nanicki.todoapp.tasks.TasksFilterType.ACTIVE_TASKS

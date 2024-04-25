@@ -1,4 +1,4 @@
-package com.nanicki.todoapp.util
+package com.nanicki.todoapp.presentation.util
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

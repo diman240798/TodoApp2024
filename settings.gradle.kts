@@ -30,6 +30,7 @@ dependencyResolutionManagement {
 }
 
 include(":app")
+include(":common")
 include(":shared-test")
 include("feature:taskdetail:api")
 include("feature:taskdetail:impl")

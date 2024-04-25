@@ -6,7 +6,7 @@ import com.nanicki.todoapp.MainCoroutineRule
 import com.nanicki.todoapp.data.FakeTaskRepository
 import com.nanicki.todoapp.data.Task
 import com.google.common.truth.Truth.assertThat
-import com.nanicki.todoapp.statistics.StatisticsViewModel
+import com.nanicki.todoapp.presentation.statistics.StatisticsViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.first

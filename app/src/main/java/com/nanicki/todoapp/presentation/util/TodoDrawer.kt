@@ -1,4 +1,4 @@
-package com.nanicki.todoapp.util
+package com.nanicki.todoapp.presentation.util
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

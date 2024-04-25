@@ -1,10 +1,10 @@
-package com.nanicki.todoapp.statistics
+package com.nanicki.todoapp.presentation.statistics
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.nanicki.todoapp.R
 import com.nanicki.todoapp.util.Async
-import com.nanicki.todoapp.util.WhileUiSubscribed
+import com.nanicki.todoapp.presentation.util.WhileUiSubscribed
 import com.nanicki.todoapp.data.Task
 import com.nanicki.todoapp.data.TaskRepository
 import dagger.hilt.android.lifecycle.HiltViewModel

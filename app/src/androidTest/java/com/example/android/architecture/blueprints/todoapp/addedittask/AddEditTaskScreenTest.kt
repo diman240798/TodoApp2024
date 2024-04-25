@@ -20,7 +20,7 @@ import com.nanicki.todoapp.HiltTestActivity
 import com.nanicki.todoapp.R
 import com.nanicki.todoapp.data.TaskRepository
 import com.google.accompanist.appcompattheme.AppCompatTheme
-import com.nanicki.todoapp.addedittask.AddEditTaskScreen
+import com.nanicki.todoapp.presentation.addedittask.AddEditTaskScreen
 import com.nanicki.todoapp.addedittask.AddEditTaskViewModel
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest

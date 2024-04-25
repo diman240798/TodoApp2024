@@ -1,4 +1,4 @@
-package com.nanicki.todoapp.util
+package com.nanicki.todoapp.presentation.util
 
 import kotlinx.coroutines.flow.SharingStarted
 

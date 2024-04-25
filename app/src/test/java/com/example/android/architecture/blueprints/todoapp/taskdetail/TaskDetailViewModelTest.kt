@@ -9,7 +9,7 @@ import com.nanicki.todoapp.TodoDestinationsArgs
 import com.nanicki.todoapp.data.FakeTaskRepository
 import com.nanicki.todoapp.data.Task
 import com.google.common.truth.Truth.assertThat
-import com.nanicki.todoapp.taskdetail.TaskDetailViewModel
+import com.nanicki.todoapp.presentation.taskdetail.TaskDetailViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.first

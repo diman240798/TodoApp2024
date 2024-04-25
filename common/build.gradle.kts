@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mylibrary"
+    namespace = "com.nanicki.todoapp.common"
     compileSdk = 34
 
     defaultConfig {

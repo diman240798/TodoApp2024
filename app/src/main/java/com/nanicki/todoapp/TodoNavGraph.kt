@@ -20,11 +20,11 @@ import com.nanicki.todoapp.R
 import com.nanicki.todoapp.TodoDestinationsArgs.TASK_ID_ARG
 import com.nanicki.todoapp.TodoDestinationsArgs.TITLE_ARG
 import com.nanicki.todoapp.TodoDestinationsArgs.USER_MESSAGE_ARG
-import com.nanicki.todoapp.addedittask.AddEditTaskScreen
-import com.nanicki.todoapp.statistics.StatisticsScreen
+import com.nanicki.todoapp.presentation.addedittask.AddEditTaskScreen
+import com.nanicki.todoapp.presentation.statistics.StatisticsScreen
 import com.nanicki.todoapp.taskdetail.TaskDetailScreen
-import com.nanicki.todoapp.tasks.TasksScreen
-import com.nanicki.todoapp.util.AppModalDrawer
+import com.nanicki.todoapp.presentation.tasks.TasksScreen
+import com.nanicki.todoapp.presentation.util.AppModalDrawer
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

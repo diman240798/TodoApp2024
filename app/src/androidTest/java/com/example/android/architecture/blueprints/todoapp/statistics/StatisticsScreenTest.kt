@@ -10,8 +10,8 @@ import com.nanicki.todoapp.HiltTestActivity
 import com.nanicki.todoapp.R
 import com.nanicki.todoapp.data.TaskRepository
 import com.google.accompanist.appcompattheme.AppCompatTheme
-import com.nanicki.todoapp.statistics.StatisticsScreen
-import com.nanicki.todoapp.statistics.StatisticsViewModel
+import com.nanicki.todoapp.presentation.statistics.StatisticsScreen
+import com.nanicki.todoapp.presentation.statistics.StatisticsViewModel
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import javax.inject.Inject

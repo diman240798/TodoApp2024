@@ -1,4 +1,4 @@
-package com.nanicki.todoapp.util
+package com.nanicki.todoapp.presentation.util
 
 import androidx.test.espresso.IdlingResource
 import java.util.concurrent.atomic.AtomicInteger

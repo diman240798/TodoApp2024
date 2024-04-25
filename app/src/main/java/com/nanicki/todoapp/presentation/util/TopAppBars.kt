@@ -1,4 +1,4 @@
-package com.nanicki.todoapp.util
+package com.nanicki.todoapp.presentation.util
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Box

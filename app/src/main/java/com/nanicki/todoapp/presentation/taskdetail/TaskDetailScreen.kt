@@ -29,10 +29,11 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.nanicki.todoapp.R
-import com.nanicki.todoapp.util.LoadingContent
-import com.nanicki.todoapp.util.TaskDetailTopAppBar
+import com.nanicki.todoapp.presentation.util.LoadingContent
+import com.nanicki.todoapp.presentation.util.TaskDetailTopAppBar
 import com.google.accompanist.appcompattheme.AppCompatTheme
 import com.nanicki.todoapp.data.Task
+import com.nanicki.todoapp.presentation.taskdetail.TaskDetailViewModel
 
 @OptIn(ExperimentalLifecycleComposeApi::class)
 @Composable

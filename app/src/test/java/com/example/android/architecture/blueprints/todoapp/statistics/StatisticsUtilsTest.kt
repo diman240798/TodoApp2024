@@ -3,7 +3,7 @@
 package com.nanicki.todoapp.statistics
 
 import com.nanicki.todoapp.data.Task
-import com.nanicki.todoapp.statistics.getActiveAndCompletedStats
+import com.nanicki.todoapp.presentation.statistics.getActiveAndCompletedStats
 import org.hamcrest.core.Is.`is`
 import org.junit.Assert.assertThat
 import org.junit.Test

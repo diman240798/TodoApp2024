@@ -1,4 +1,4 @@
-package com.nanicki.todoapp.statistics
+package com.nanicki.todoapp.presentation.statistics
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -21,8 +21,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.nanicki.todoapp.R
-import com.nanicki.todoapp.util.LoadingContent
-import com.nanicki.todoapp.util.StatisticsTopAppBar
+import com.nanicki.todoapp.presentation.util.LoadingContent
+import com.nanicki.todoapp.presentation.util.StatisticsTopAppBar
 import com.google.accompanist.appcompattheme.AppCompatTheme
 
 @OptIn(ExperimentalLifecycleComposeApi::class)

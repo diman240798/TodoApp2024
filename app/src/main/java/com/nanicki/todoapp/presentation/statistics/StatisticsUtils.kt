@@ -1,4 +1,4 @@
-package com.nanicki.todoapp.statistics
+package com.nanicki.todoapp.presentation.statistics
 
 import com.nanicki.todoapp.data.Task
 

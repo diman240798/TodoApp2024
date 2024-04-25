@@ -1,4 +1,4 @@
-package com.nanicki.todoapp.tasks
+package com.nanicki.todoapp.presentation.tasks
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -44,9 +44,10 @@ import com.nanicki.todoapp.data.Task
 import com.nanicki.todoapp.tasks.TasksFilterType.ACTIVE_TASKS
 import com.nanicki.todoapp.tasks.TasksFilterType.ALL_TASKS
 import com.nanicki.todoapp.tasks.TasksFilterType.COMPLETED_TASKS
-import com.nanicki.todoapp.util.LoadingContent
-import com.nanicki.todoapp.util.TasksTopAppBar
+import com.nanicki.todoapp.presentation.util.LoadingContent
+import com.nanicki.todoapp.presentation.util.TasksTopAppBar
 import com.google.accompanist.appcompattheme.AppCompatTheme
+import com.nanicki.todoapp.tasks.TasksViewModel
 
 @OptIn(ExperimentalLifecycleComposeApi::class)
 @Composable

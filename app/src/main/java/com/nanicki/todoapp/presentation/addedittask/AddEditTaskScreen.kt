@@ -1,4 +1,4 @@
-package com.nanicki.todoapp.addedittask
+package com.nanicki.todoapp.presentation.addedittask
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Column
@@ -33,9 +33,10 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.nanicki.todoapp.R
-import com.nanicki.todoapp.util.AddEditTaskTopAppBar
+import com.nanicki.todoapp.presentation.util.AddEditTaskTopAppBar
 import com.google.accompanist.swiperefresh.SwipeRefresh
 import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
+import com.nanicki.todoapp.addedittask.AddEditTaskViewModel
 
 @OptIn(ExperimentalLifecycleComposeApi::class)
 @Composable

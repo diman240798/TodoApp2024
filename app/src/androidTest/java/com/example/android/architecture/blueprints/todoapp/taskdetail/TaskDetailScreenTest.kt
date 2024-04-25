@@ -14,7 +14,7 @@ import com.nanicki.todoapp.HiltTestActivity
 import com.nanicki.todoapp.data.TaskRepository
 import com.google.accompanist.appcompattheme.AppCompatTheme
 import com.nanicki.todoapp.taskdetail.TaskDetailScreen
-import com.nanicki.todoapp.taskdetail.TaskDetailViewModel
+import com.nanicki.todoapp.presentation.taskdetail.TaskDetailViewModel
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import javax.inject.Inject
